@@ -4,6 +4,11 @@ const questions = [
         title: "1. Soru: Algılayıcı",
         link: "https://forms.gle/HpKLbiKu6CoaiYW17"
     },
+    {
+        id: 2,
+        title: "2. Soru: Eğitim Teknolojileri",
+        link: "https://forms.gle/nePyqoFKEBSNA1nz7"
+    },
 ];
 
 const scoreboardData = [
