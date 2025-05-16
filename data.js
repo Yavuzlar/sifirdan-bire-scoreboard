@@ -9,6 +9,11 @@ const questions = [
         title: "2. Soru: Eğitim Teknolojileri",
         link: "https://forms.gle/nePyqoFKEBSNA1nz7"
     },
+    {
+        id: 3,
+        title: "3. Soru: Hastane Yönetim Sistemi",
+        link: "https://forms.gle/2V1yt2uemiP1bpGF8"
+    },
 ];
 
 const scoreboardData = [
