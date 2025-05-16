@@ -11,15 +11,19 @@
 
 <body>
     <nav class="navbar">
-        <div class="logo">
-            <img src="./SV_0dan1e_logo_renkli.png" alt="0'dan 1'e Logo" class="logo-img"
-                style="max-width: 160px; max-height: 64px;">
+        <a href="/">
+            <div class="logo">
+                <img src="./SV_0dan1e_logo_renkli.png" alt="0'dan 1'e Logo" class="logo-img"
+                    style="max-width: 160px; max-height: 64px;">
 
-            <span>1'e Doğru: Geleceği Kodla!</span>
-        </div>
+                <span>1'e Doğru: Geleceği Kodla!</span>
+            </div>
+        </a>
+
         <div class="nav-links">
             <a href="#" class="nav-link active" data-page="questions">Sorular</a>
             <a href="#" class="nav-link" data-page="scoreboard">Scoreboard</a>
+            <a href="#" class="nav-link" data-page="criteria">Değerlendirme Kriterleri</a>
         </div>
     </nav>
 
@@ -39,6 +43,73 @@
                 </div>
                 <div class="scoreboard-list" id="scoreboardList">
                     <!-- Scoreboard will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <section id="criteria" class="page">
+            <h1>Değerlendirme Kriterleri</h1>
+            <div class="criteria-container">
+                <div class="criteria-list">
+                    <div class="criteria-item">
+                        <h3>1. Algoritma Uygunluğu</h3>
+                        <p>Yazılan kod istenilen algoritmayı karşılıyor mu?</p>
+                        <p>Kodun, verilen problem tanımına uygun bir algoritma ile çözülüp çözülmediği incelenecektir.
+                        </p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>2. Kod Doğruluğu</h3>
+                        <p>Kodun doğru çalışması – Test durumlarına göre başarı oranı</p>
+                        <p>Kod, belirlenen test senaryolarında hatasız çalışmalı ve doğru çıktılar üretmelidir.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>3. Algoritma Verimliliği</h3>
+                        <p>Algoritmanın verimliliği (Zaman ve bellek karmaşıklığı)</p>
+                        <p>Kodun çalışma süresi ve bellek kullanımı dikkate alınarak algoritmanın optimizasyon seviyesi
+                            değerlendirilecektir.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>4. Performans</h3>
+                        <p>Kodun çalışma performansı (Süre ve kaynak kullanımı)</p>
+                        <p>Programın hızlı ve kaynakları verimli kullanarak çalışması beklenir.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>5. Gönderme Hızı</h3>
+                        <p>Takımın yapılan soruyu jüriye gönderme hızı</p>
+                        <p>Sorunun çözümünün jüriye ne kadar sürede iletildiği göz önünde bulundurulacaktır.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>6. Clean Code</h3>
+                        <p>Yazılan kod "Clean Code" yapısına uygun mu?</p>
+                        <p>Kodun okunabilirliği, sade ve anlaşılır yapıda olması önemlidir.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>7. Dokümantasyon</h3>
+                        <p>Yorum satırı ve açıklayıcı kod kullanımı</p>
+                        <p>Karmaşık yapıların anlaşılması için yeterli düzeyde yorum satırı kullanımı aranacaktır.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>8. Yaratıcılık</h3>
+                        <p>Yaratıcılık ve yaklaşım tarzı</p>
+                        <p>Sorunun çözümünde kullanılan yöntemlerin farklılığı ve inovatif yaklaşım değerlendirilir.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>9. Hata Yönetimi</h3>
+                        <p>Hata yönetimi ve girdi kontrolleri</p>
+                        <p>Kodun beklenmeyen durumlarda hataları yakalayıp düzgün şekilde yönetmesi ve kullanıcıdan
+                            alınan girdileri kontrol etmesi beklenir.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>10. İsimlendirme</h3>
+                        <p>Yazılan algoritmadaki değişken isimleri global isim yapısında mı?</p>
+                        <p>Değişken isimlendirmeleri anlamlı, açıklayıcı ve genel yazım kurallarına uygun olmalıdır.</p>
+                    </div>
+                    <div class="criteria-item">
+                        <h3>11. Takım İşbirliği</h3>
+                        <p>Takım içi iş birliği (Eşit puan durumunda eşitlik bozacak kriter)</p>
+                        <p>Takım üyeleri arasındaki görev paylaşımı ve iş birliği düzeyi, gerektiğinde eşitlik bozma
+                            kriteri olarak kullanılacaktır.</p>
+                    </div>
                 </div>
             </div>
         </section>
