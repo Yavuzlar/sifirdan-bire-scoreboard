@@ -233,4 +233,41 @@ h1 {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.announcements-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.announcement-item {
+    background-color: var(--card-bg);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-left: 4px solid var(--primary-color);
+}
+
+.announcement-item:hover {
+    transform: translateX(8px);
+}
+
+.announcement-time {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.announcement-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+}
+
+.announcement-content p {
+    color: var(--text-primary);
+    line-height: 1.6;
 } 

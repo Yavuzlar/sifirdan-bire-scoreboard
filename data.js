@@ -14,6 +14,17 @@ const questions = [
         title: "3. Soru: Hastane Yönetim Sistemi",
         link: "https://forms.gle/2V1yt2uemiP1bpGF8"
     },
+    {
+        id: 4,
+        title: "4. Soru: Sezar Şifreleme",
+        link: "https://forms.gle/1GHhraKzLEuCMHVw6"
+    },
+    {
+        id: 5,
+        title: "5. Soru: Turing Makinesi",
+        link: "https://forms.gle/ykWbTA2yK5yoHiRJ6"
+    },
+
 ];
 
 const scoreboardData = [
