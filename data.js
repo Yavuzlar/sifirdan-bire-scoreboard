@@ -36,16 +36,15 @@ const questions = [
     },
 ];
 
-const scoreboardData = [
-   { id: 1, name: "Ralite", score: 2521 },
-   { id: 2, name: "Syntax Sisters", score: 2372 },
+ const scoreboardData = [
+    { id: 1, name: "Ralite", score: 2521 },
+    { id: 2, name: "Syntax Sisters", score: 2372 },
     { id: 3, name: "Code Kundakers", score: 1921 },
-    { id: 4, name: "", score: 0 },
-    { id: 5, name: "", score: 0 },
-    { id: 6, name: "", score: 0 },
-    { id: 7, name: "", score: 0 },
-    { id: 8, name: "", score: 0 },
-]; 
+    { id: 4, name: "Dev Nova", score: 1625 },
+    { id: 5, name: "Icebergs", score: 1621 },
+    { id: 6, name: "Codash", score: 1317 },
+    { id: 7, name: "\"Hello World\"", score: 1015 },
+ ]; 
 
 
 // const scoreboardData = [
