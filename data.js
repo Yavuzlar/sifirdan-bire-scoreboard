@@ -37,7 +37,7 @@ const questions = [
 ];
 
 const scoreboardData = [
-    { id: 1, name: "", score: 0 },
+   { id: 1, name: "Ralite", score: 2521 },
    { id: 2, name: "Syntax Sisters", score: 2372 },
     { id: 3, name: "Code Kundakers", score: 1921 },
     { id: 4, name: "", score: 0 },
