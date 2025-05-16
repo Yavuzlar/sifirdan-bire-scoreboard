@@ -24,7 +24,16 @@ const questions = [
         title: "5. Soru: Turing Makinesi",
         link: "https://forms.gle/ykWbTA2yK5yoHiRJ6"
     },
-
+    {
+        id: 6,
+        title: "6. Soru: FindMe",
+        link: "https://forms.gle/5iesgsAVhutbfVKj6"
+    },
+    {
+        id: 7,
+        title: "7. Soru: RomanToInteger",
+        link: "https://forms.gle/oDAVGc3mJfPBpv1P8"
+    },
 ];
 
 const scoreboardData = [
