@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1'e Doğru: Geleceği Kodla</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="./SV_0dan1e_logo_renkli.png" alt="0'dan 1'e Logo" class="logo-img"
+                style="max-width: 160px; max-height: 64px;">
+
+        </div>
+        <div class="nav-links">
+            <a href="#" class="nav-link active" data-page="questions">Sorular</a>
+            <a href="#" class="nav-link" data-page="scoreboard">Scoreboard</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="questions" class="page active">
+            <h1>Mevcut Sorular</h1>
+            <div class="questions-container" id="questionsList">
+                <!-- Questions will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section id="scoreboard" class="page">
+            <h1>Skor Tablosu</h1>
+            <div class="scoreboard-container">
+                <div class="top-three">
+                    <!-- Top 3 users will be displayed here -->
+                </div>
+                <div class="scoreboard-list" id="scoreboardList">
+                    <!-- Scoreboard will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
