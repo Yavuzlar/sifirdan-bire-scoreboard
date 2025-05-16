@@ -39,7 +39,7 @@ const questions = [
 const scoreboardData = [
     { id: 1, name: "", score: 0 },
     { id: 2, name: "", score: 0 },
-    { id: 3, name: "", score: 0 },
+    { id: 3, name: "AAA", score: 0 },
     { id: 4, name: "", score: 0 },
     { id: 5, name: "", score: 0 },
     { id: 6, name: "", score: 0 },
