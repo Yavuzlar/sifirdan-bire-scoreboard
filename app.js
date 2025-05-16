@@ -31,7 +31,7 @@ function setupNavigation() {
 
 function loadQuestions() {
     const questionsList = document.getElementById('questionsList');
-    
+
     questions.forEach(question => {
         const questionCard = document.createElement('div');
         questionCard.className = 'question-card';
@@ -64,7 +64,7 @@ function loadScoreboard() {
         const scoreboardItem = document.createElement('div');
         scoreboardItem.className = 'scoreboard-item';
         scoreboardItem.innerHTML = `
-            <div class="user-rank">#${index + 4}</div>
+            <div class="user-rank" style="color: var(--gold);">#${index + 4}</div>
             <div class="user-name">${user.name}</div>
             <div class="user-score">${user.score}</div>
         `;
