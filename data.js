@@ -37,12 +37,24 @@ const questions = [
 ];
 
 const scoreboardData = [
-    { id: 1, name: "Code Kundakers", score: 0 },
-    { id: 2, name: "Boolean", score: 0 },
-    { id: 3, name: "Ralite", score: 0 },
-    { id: 4, name: "Icebergs", score: 0 },
-    { id: 5, name: "Codash", score: 0 },
-    { id: 6, name: "Syntax Sisters", score: 0 },
-    { id: 7, name: "\"Hello World\"", score: 0 },
-    { id: 8, name: "Dev Nova", score: 0 },
+    { id: 1, name: "", score: 0 },
+    { id: 2, name: "", score: 0 },
+    { id: 3, name: "", score: 0 },
+    { id: 4, name: "", score: 0 },
+    { id: 5, name: "", score: 0 },
+    { id: 6, name: "", score: 0 },
+    { id: 7, name: "", score: 0 },
+    { id: 8, name: "", score: 0 },
 ]; 
+
+
+// const scoreboardData = [
+ //   { id: 1, name: "Code Kundakers", score: 0 },
+ //   { id: 2, name: "Boolean", score: 0 },
+ //   { id: 3, name: "Ralite", score: 0 },
+ //   { id: 4, name: "Icebergs", score: 0 },
+ //   { id: 5, name: "Codash", score: 0 },
+ //   { id: 6, name: "Syntax Sisters", score: 0 },
+ //   { id: 7, name: "\"Hello World\"", score: 0 },
+ //   { id: 8, name: "Dev Nova", score: 0 },
+// ]; 
