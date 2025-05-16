@@ -3,6 +3,27 @@ document.addEventListener('DOMContentLoaded', () => {
     loadQuestions();
     loadScoreboard();
     setupNavigation();
+
+    // Popup functionality
+    const popup = document.getElementById('competitionEndPopup');
+    const closeBtn = popup.querySelector('.popup-close');
+
+    // Show popup when page loads
+    setTimeout(() => {
+        popup.classList.add('active');
+    }, 500);
+
+    // Close popup when close button is clicked
+    closeBtn.addEventListener('click', () => {
+        popup.classList.remove('active');
+    });
+
+    // Close popup when clicking outside
+    popup.addEventListener('click', (e) => {
+        if (e.target === popup) {
+            popup.classList.remove('active');
+        }
+    });
 });
 
 function setupNavigation() {
